@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <title>Overwolf Twitch Auth</title>
+    <script>
+      (function () {
+        window.location.replace(
+          `overwolf-extension://fhpkpngibplfkdemdfmfpnngnbjackanpljjjlek/Files/login.html${location.hash}`
+        );
+      })();
+    </script>
   </head>
-  <script>
-    (function () {
-      window.location.replace(
-        `overwolf-extension://fhpkpngibplfkdemdfmfpnngnbjackanpljjjlek/Files/login.html${location.hash}`
-      );
-    })();
-  </script>
 </html>
