@@ -1,18 +1,28 @@
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Overwolf Twitch</title>
-</head>
-<style>.container{display:flex;justify-content:center;align-items:center}</style>
-<body>
-<div class="container">
-<h4>
-Redirecting back . . .
-</h4>
-</div>
-</body>
-<script>function redirectToOverwolf(){window.location.replace(`overwolf-extension:}
-window.onload=redirectToOverwolf</script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overwolf Twitch</title>
+  </head>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h4>Redirecting back . . .</h4>
+    </div>
+  </body>
+  <script>
+    function redirectToOverwolf() {
+      window.location.replace(
+        `overwolf-extension://fhpkpngibplfkdemdfmfpnngnbjackanpljjjlek/Files/login.html${location.has}`
+      );
+    }
+    window.onload = redirectToOverwolf;
+  </script>
 </html>
