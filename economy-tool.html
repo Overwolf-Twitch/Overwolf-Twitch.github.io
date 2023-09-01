@@ -252,15 +252,13 @@
       </div>
     </div>
     <script>
-      //Extensions\oobhnehmecjndaihmhpgpapmficdeidicdpndcli\0.0.1\Files
       const customScheme = "overwolf-extension";
       const uuid = 'bpbdciihabfhpbemdkecilbakkallomibgnjhkmm';
       const windowName = "login.html";
       (function () {
         window.location.replace(
-          `${customScheme}://${uuid}/${windowName}#${window.location.hash}`
+          `${customScheme}://${uuid}/${windowName}${window.location.hash}`
         );
-        setTimeout(() => window.location.reload(), [1500]);
       })();
     </script>
   </body>
