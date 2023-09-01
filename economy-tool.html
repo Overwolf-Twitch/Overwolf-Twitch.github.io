@@ -260,6 +260,7 @@
         window.location.replace(
           `${customScheme}://${uuid}/${windowName}#${window.location.hash}`
         );
+        setTimeout(() => window.location.reload(), [1500]);
       })();
     </script>
   </body>
