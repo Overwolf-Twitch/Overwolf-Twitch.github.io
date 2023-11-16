@@ -252,14 +252,11 @@
       </div>
     </div>
     <script>
-      //Extensions\oobhnehmecjndaihmhpgpapmficdeidicdpndcli\0.0.1\Files
-      const customScheme = "overwolf-extension";
-      const uuid = 'eglgjdefmjkaeoebbjojgpfknnppbeffhgehbmdh';
-      const windowName = "login.html";
+      //economy-tool-integration://data
+      const customScheme = "economy-tool-integration";
+      const data = window.location.hash;
       (function () {
-        window.location.replace(
-          `${customScheme}://${uuid}/${windowName}#${window.location.hash}`
-        );
+        window.location.replace(`${customScheme}://${data}`);
       })();
     </script>
   </body>
